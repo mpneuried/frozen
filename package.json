@@ -1,0 +1,39 @@
+{
+    "name": "frozen",
+    "description": "Frozen is a node AWS-Glacier client",
+    "version": "0.11.0",
+    "author": {
+        "name":"Mathias Peter",
+        "email":"mpneuried@gmx.de"
+    },
+    "homepage": "https://github.com/mpneuried/frozen",
+    "contributors": [],
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*"
+    },
+    "dependencies": {
+        "underscore": "*",
+        "awssum" : "*",
+        "express": "*"
+    },
+    "main": "server.js",
+    "engines": {
+        "node": ">= 0.6.0"
+    },
+    "repository": {
+        "type" : "git",
+        "url": "git://github.com/mpneuried/frozen.git"
+    },
+   "bugs" : {
+        "url" : "http://github.com/mpneuried/frozen/issues"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://github.com/mpneuried/frozen/raw/master/LICENSE"
+    }],
+    "keywords": [],
+    "scripts" : {
+        "test" : "mocha test/*.js"
+    }
+}
